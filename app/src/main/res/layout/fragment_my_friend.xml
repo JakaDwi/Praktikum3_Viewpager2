@@ -6,9 +6,16 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="Fragment Teman"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="25sp"/>
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:text="List Teman"
+        android:gravity="center_horizontal"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_listMyfriend"
+        android:layout_margin="16dp" />
 
 </LinearLayout>

@@ -12,10 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />
-    <view
+    <View
         android:layout_width="match_parent"
         android:layout_height="1.5dp"
-        android:background="#f5f5f5"></view>
+        android:background="@color/white" />
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
